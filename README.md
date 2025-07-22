@@ -19,7 +19,8 @@ Each step is explained in the notebook itself.
 ## About Training Data
 In this project, The data for training is generated in the program by combining SoundFont and FluidSynth.
 
-## About output results (Model Inference)
+## About output results (Model Inference
+<img width="1389" height="390" alt="download" src="https://github.com/user-attachments/assets/8d2b2bbb-6675-41ad-8a6f-4e3ab4246c72" />
 This is the inference result using a monophonic piano audio input. The x-axis is time and the y-axis is midi note number.
 As you can see, the accuracy tends to degrade in the higher pitch range.
 This issue requires further improvement in future versions.
