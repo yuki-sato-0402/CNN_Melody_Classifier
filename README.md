@@ -19,11 +19,16 @@ Each step is explained in the notebook itself.
 ## About Training Data
 In this project, The data for training is generated in the program by combining SoundFont and FluidSynth.
 
-## About output results (Model Inference
-<img width="1389" height="390" alt="download" src="https://github.com/user-attachments/assets/8d2b2bbb-6675-41ad-8a6f-4e3ab4246c72" />
-This is the inference result using a monophonic piano audio input. The x-axis is time and the y-axis is midi note number.
+## About output results (Model Inference)
+This is the inference result using a **sax** audio input (./testAudio/saxTest).  
+The x-axis is time and the y-axis is midi note number.  
+Accuracy-wise, it occasionally misses the pitch but does not seem to be a major problem.
+<img width="1389" height="390" alt="download (1)" src="https://github.com/user-attachments/assets/cab47308-7033-4dbc-a25b-cdf88b3e16ac" />  
+
+This is the inference result using a monophonic **piano** audio input (./testAudio/pianoTest). 
 As you can see, the accuracy tends to degrade in the higher pitch range.
 This issue requires further improvement in future versions.
+<img width="1389" height="390" alt="download (2)" src="https://github.com/user-attachments/assets/3fe93735-8618-422c-bb62-0452c22dee0c" />
 
 ## Limitations
 This is an early prototype and the pitch classification accuracy is still limited.
