@@ -17,7 +17,8 @@ No need to install anything locally — everything runs in the cloud.
 Each step is explained in the notebook itself.
 
 ## About Training Data
-In this project, The data for training is generated in the program by combining SoundFont and FluidSynth.
+In this project, The data for training is generated in the program by combining SoundFont and FluidSynth.  
+Synth can be found [here](https://pypi.org/project/pyfluidsynth/).
 
 ## About output results (Model Inference)
 This is the inference result using a **sax** audio input (./testAudio/saxTest).  
